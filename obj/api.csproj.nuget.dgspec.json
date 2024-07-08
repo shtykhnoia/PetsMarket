@@ -38,6 +38,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -61,6 +69,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0-preview.5.24306.3, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
