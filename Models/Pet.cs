@@ -15,9 +15,8 @@ public class Pet
     public string Desc { set; get; } = string.Empty;
 
     public int Price { get; set; }
-
-    public string Img { get; set; } = string.Empty;
-
-    public bool IsFavorite { get; set; }
+    
+    public List<Portfolio> Portfolios { get; set; } = new List<Portfolio>();
+    
 
 }

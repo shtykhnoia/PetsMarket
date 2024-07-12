@@ -10,4 +10,6 @@ public interface IPetRepository
     Task<Pet> CreateAsync(Pet petModel);
 
     Task<Pet?> DeleteAsync(int id);
+
+    Task<Pet?> GetByNameAsync(string name);
 }

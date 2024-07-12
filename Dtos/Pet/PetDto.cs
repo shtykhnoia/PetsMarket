@@ -16,7 +16,7 @@ public class PetDto
 
     public int Price { get; set; }
 
-    public string Img { get; set; } = string.Empty;
+    public byte[] Img { get; set; }
 
     public bool IsFavorite { get; set; }
     

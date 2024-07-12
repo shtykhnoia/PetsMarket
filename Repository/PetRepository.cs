@@ -51,4 +51,9 @@ public class PetRepository : IPetRepository
         await _context.SaveChangesAsync();
         return petModel;
     }
+
+    public async Task<Pet?> GetByNameAsync(string name)
+    {
+        return await _context.Pets.FirstOrDefaultAsync(p => p.Name == name);
+    }
 }

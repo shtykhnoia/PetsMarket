@@ -15,8 +15,7 @@ public static class PetMapper
             Price = petModel.Price,
             CategoryId = petModel.CategoryId,
             //Category = petModel.Category,
-            Img = petModel.Img,
-            IsFavorite = petModel.IsFavorite
+            //Img = petModel.Img
         };
     }
 
